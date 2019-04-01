@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hg</string>
+    <string-array name="City">
+        <item>City</item>
+        <item>Ahmedabad</item>
+        <item>Surat</item>
+        <item>Bharuch</item>
+        <item>Varodra</item>
+        <item>Valsad</item>
+        <item>Anand</item>
+        <item>Navsari</item>
+        <item>Dahod</item>
+
+
+    </string-array>
+</resources>

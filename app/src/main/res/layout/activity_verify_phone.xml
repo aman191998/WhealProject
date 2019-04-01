@@ -24,6 +24,7 @@
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="20dp"
+        android:paddingBottom="20dp"
         android:text="Wait for the code I sent you..."
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:textColor="@color/colorPrimaryDark" />
@@ -35,11 +36,13 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
+        android:layout_marginTop="25dp"
         android:layout_centerHorizontal="true"
         android:digits="0123456789"
         android:background="@drawable/rectangle"
         android:paddingLeft="40dp"
-        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
         android:hint="enter code"
         android:maxLength="6" />
 
@@ -50,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextCode"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/login"
         android:text="Login"
         android:paddingBottom="10dp"

@@ -60,7 +60,7 @@
         android:layout_below="@id/buttonContinue"
         android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/path"/>
+        android:src="@drawable/path1"/>
 
 
 </RelativeLayout>

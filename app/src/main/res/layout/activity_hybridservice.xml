@@ -1,9 +1,331 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Hybridservice">
+    tools:context=".Hybridservice"
+    android:background="#1A1927"
+    >
 
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/wet"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hybrid_services"
+                android:layout_width="0dp"
+                android:paddingTop="20dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:textSize="21dp"
+                android:paddingLeft="5dp"
+                android:text="Hybrid Services"
+                android:typeface="serif"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kuk"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/scheduled_maintenance"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="10dp"
+                android:text="Scheduled Maintenance"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/state_battery"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="20dp"
+                android:text="State of Battery Testing"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/voltage_battery"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="10dp"
+            android:text="Voltage Battery Testing "
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/voltage_cable"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="10dp"
+            android:text="Volatge Cable Inspection"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/brake_system"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="20dp"
+            android:text="Brake System Repair"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cooling_system"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="20dp"
+            android:text="Cooling System Repair"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/heating_system"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="20dp"
+                android:text="Heating Sytsem Repair"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fuel_system"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="10dp"
+                android:text="Fuel System Repair"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/engine_service"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="10dp"
+                android:text="Engine Service "
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="hello"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Air_conditioner_repair"
+    android:background="#1A1927"
+    >
+
+
+    <LinearLayout
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/wet"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingTop="20dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:textSize="21dp"
+                android:paddingLeft="5dp"
+                android:text="Engine Services"
+                android:typeface="serif"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kuk"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="20dp"
+                android:text="Engine Repair"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+             <Switch
+                 android:layout_width="70dp"
+                 android:layout_height="match_parent"
+
+               />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="20dp"
+                android:text="Engine Replacement"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="10dp"
+            android:text="Engine Perfomance check"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="20dp"
+            android:text="Belt Replacement"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="20dp"
+            android:text="Hose Replacement"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/papa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="40"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="20dp"
+            android:text="Cooling system repair"
+            android:textColor="#ffffff"
+            android:textSize="21dp"
+            android:typeface="serif" />
+
+        <Switch
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="20dp"
+                android:text="Water Pump Repair"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="20dp"
+                android:text="Fuel Injection Service"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/papa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="40"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="10dp"
+                android:text="Fuel System Maintenance"
+                android:textColor="#ffffff"
+                android:textSize="21dp"
+                android:typeface="serif" />
+
+            <Switch
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="hello"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

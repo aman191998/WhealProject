@@ -1,5 +1,6 @@
 package com.example.hg;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -48,6 +49,20 @@ public class main2 extends AppCompatActivity implements AdapterView.OnItemSelect
         divisionArray.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         spinnerDivision.setAdapter(divisionArray);
+        button=findViewById(R.id.Butto1);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity2();
+
+            }
+        });
+    }
+
+    public void openActivity2(){
+        Intent intent=new Intent(main2.this,ProfileActivity.class);
+        startActivity(intent);
     }
 
 

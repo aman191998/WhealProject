@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EngineService"
+    tools:context=".Air_conditioner_repair"
     android:background="#1A1927"
     >
 
@@ -30,14 +30,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/engine_service"
+                android:id="@+id/air_repair"
                 android:layout_width="0dp"
                 android:paddingTop="20dp"
                 android:layout_height="70dp"
                 android:layout_weight="40"
                 android:textSize="21dp"
                 android:paddingLeft="5dp"
-                android:text="Engine Service"
+                android:text="Air Conditioner Repair "
                 android:typeface="serif"
                 android:textColor="#ffffff"/>
 
@@ -58,14 +58,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/engine_repair"
+                android:id="@+id/cooling_system"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="40"
                 android:paddingLeft="7dp"
                 android:paddingRight="7dp"
                 android:paddingTop="10dp"
-                android:text="Engine Repair"
+                android:text="Cooling System Diagnostics"
                 android:textColor="#ffffff"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -88,14 +88,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/engine_replacement"
+                android:id="@+id/auto_aircond"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="40"
                 android:paddingLeft="7dp"
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
-                android:text="Engine Replacement"
+                android:text="Auto Air Conditioning Repair"
                 android:textColor="#ffffff"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -117,14 +117,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/engine_performance"
+            android:id="@+id/heating_system"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:paddingTop="10dp"
-            android:text="Engine Performance Check"
+            android:text="Heating System Repair"
             android:textColor="#ffffff"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -146,14 +146,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/belt_replacement"
+            android:id="@+id/belt_repair"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:paddingTop="10dp"
-            android:text="Belt Replacement"
+            android:text="Belt Repair "
             android:textColor="#ffffff"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -175,14 +175,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/house_replacement"
+            android:id="@+id/compressor_reapir"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:paddingTop="20dp"
-            android:text="Hose Replacement"
+            android:text="Compressor Repair"
             android:textColor="#ffffff"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -204,14 +204,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/water_pump"
+            android:id="@+id/refigerant_replacement"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:paddingTop="20dp"
-            android:text="Water Pump Repair"
+            android:text="Refigerant Replacement"
             android:textColor="#ffffff"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -234,14 +234,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/fuel_service"
+                android:id="@+id/auto_air"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="40"
                 android:paddingLeft="7dp"
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
-                android:text="Fuel Injection Service"
+                android:text="Auto Air Conditioning"
                 android:textColor="#ffffff"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -264,14 +264,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/fuel_system"
+                android:id="@+id/heating_repair"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="40"
                 android:paddingLeft="7dp"
                 android:paddingRight="7dp"
                 android:paddingTop="10dp"
-                android:text="Fuel Sytstem Maintenance"
+                android:text="Heating System Repair and Service "
                 android:textColor="#ffffff"
                 android:textSize="21dp"
                 android:typeface="serif" />

@@ -24,7 +24,6 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -37,7 +36,8 @@
                 android:paddingLeft="5dp"
                 android:text="Hybrid Services"
                 android:typeface="serif"
-                android:textColor="#ffffff"/>
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"/>
 
             <Button
                 android:id="@+id/button1"
@@ -52,7 +52,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -62,9 +61,10 @@
                 android:layout_weight="40"
                 android:paddingLeft="7dp"
                 android:paddingRight="7dp"
-                android:paddingTop="10dp"
+                android:paddingTop="20dp"
                 android:text="Scheduled Maintenance"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -82,7 +82,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -94,7 +93,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="State of Battery Testing"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -111,7 +111,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -121,9 +120,10 @@
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
-            android:paddingTop="10dp"
+            android:paddingTop="20dp"
             android:text="Voltage Battery Testing "
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -140,7 +140,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -150,9 +149,10 @@
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
-            android:paddingTop="10dp"
+            android:paddingTop="20dp"
             android:text="Volatge Cable Inspection"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -169,7 +169,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -181,7 +180,8 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Brake System Repair"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -198,7 +198,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -210,7 +209,8 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Cooling System Repair"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -228,7 +228,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -240,7 +239,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Heating Sytsem Repair"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -258,7 +258,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -270,7 +269,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="10dp"
                 android:text="Fuel System Repair"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -288,7 +288,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -300,7 +299,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="10dp"
                 android:text="Engine Service "
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 

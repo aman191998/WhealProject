@@ -26,7 +26,6 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -39,7 +38,8 @@
                 android:paddingLeft="5dp"
                 android:text="Engine Service "
                 android:typeface="serif"
-                android:textColor="#ffffff"/>
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"/>
 
             <Button
                 android:id="@+id/button1"
@@ -54,7 +54,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -64,9 +63,10 @@
                 android:layout_weight="40"
                 android:paddingLeft="7dp"
                 android:paddingRight="7dp"
-                android:paddingTop="10dp"
+                android:paddingTop="20dp"
                 android:text="Engine Repair"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -84,7 +84,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -96,7 +95,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Engine Replacement"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -113,7 +113,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -123,9 +122,10 @@
             android:layout_weight="40"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
-            android:paddingTop="10dp"
+            android:paddingTop="20dp"
             android:text="Engine Performance Check"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -142,7 +142,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -154,7 +153,8 @@
             android:paddingRight="7dp"
             android:paddingTop="10dp"
             android:text="Belt Replacement"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -171,7 +171,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -183,7 +182,8 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Hose Replacement"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -200,7 +200,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/papa"
         android:orientation="horizontal">
 
         <TextView
@@ -212,7 +211,8 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Water Pump Repair"
-            android:textColor="#ffffff"
+            android:background="@drawable/reg_edittext_style"
+            android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
 
@@ -230,7 +230,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -242,7 +241,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Fuel Injection Service "
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 
@@ -260,7 +260,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/papa"
             android:orientation="horizontal">
 
             <TextView
@@ -272,7 +271,8 @@
                 android:paddingRight="7dp"
                 android:paddingTop="10dp"
                 android:text="Fuel System Maintenance"
-                android:textColor="#ffffff"
+                android:background="@drawable/reg_edittext_style"
+                android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
 

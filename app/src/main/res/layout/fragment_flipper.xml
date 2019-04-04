@@ -1,73 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".flipper">
 
     <!-- TODO: Update blank fragment layout -->
-    <ViewFlipper
+    <LinearLayout
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/v_flipper"></ViewFlipper>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginTop="270dp"
-        android:background="@drawable/rectangle"
-        android:paddingRight="140dp"
-        android:text="Engine Service"
-        android:textAllCaps="false"
-        android:textStyle="bold"
-        android:textColor="@color/black" />
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v_flipper"></ViewFlipper>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginTop="325dp"
-        android:background="@drawable/rectangle"
-        android:paddingRight="140dp"
-        android:text="Auto Electric Service"
-        android:paddingLeft="40dp"
-        android:textAllCaps="false"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
-    <Button
-        android:id="@+id/button3"
-        android:layout_marginTop="380dp"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@drawable/rectangle"
-        android:text="Hybrid Service"
-        android:paddingRight="140dp"
-        android:textAllCaps="false"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
-    <Button
-        android:id="@+id/button4"
-        android:layout_marginTop="435dp"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@drawable/rectangle"
-        android:text="Air Conditioner Repair"
-        android:paddingRight="90dp"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textStyle="bold"/>
-    <Button
-        android:id="@+id/button5"
-        android:layout_marginTop="490dp"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@drawable/rectangle"
-        android:text="Exhaust Service"
-        android:paddingRight="140dp"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textStyle="bold"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle"
+            android:paddingRight="140dp"
+            android:text="Engine Service"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:textStyle="bold" />
 
-</FrameLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="140dp"
+            android:text="Auto Electric Service"
+            android:paddingLeft="40dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="@drawable/rectangle"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/rectangle"
+            android:text="Hybrid Service"
+            android:paddingRight="140dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/rectangle"
+            android:text="Air Conditioner Repair"
+            android:paddingRight="90dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:typeface="serif"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/rectangle"
+            android:text="Exhaust Service"
+            android:paddingRight="140dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:typeface="serif"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_newprom_description"
+            android:padding="10dp"
+            android:lines="5"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:minLines="5"
+            android:gravity="top|left"
+            android:scrollbars="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:text="Submit Button"
+            android:background="@drawable/reg_btn_style"
+            android:layout_margin="75dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

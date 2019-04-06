@@ -28,7 +28,8 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_marginTop="30dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/mc">
 
             <TextView
                 android:id="@+id/auto_electrical"
@@ -47,7 +48,7 @@
                 android:id="@+id/button1"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/kuk"/>
+                android:background="@drawable/qwqwe"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +57,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/electrical_system"
@@ -67,7 +69,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Electrical System Repair"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -86,7 +87,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/alternator_repair"
@@ -97,7 +99,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Alternator Repair"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -115,7 +116,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/starter_repair"
@@ -126,7 +128,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Starter Repair"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -144,7 +145,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/windsheild_wiper"
@@ -155,7 +157,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Windsheild Wiper Repair"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -173,7 +174,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/power_lock"
@@ -184,7 +186,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Power Lock Repair"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -202,7 +203,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/power_steering"
@@ -213,7 +215,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Power Steering Repair"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -232,7 +233,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/power_window"
@@ -243,7 +245,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Power Window Repair"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -262,7 +263,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/light_repair"
@@ -273,7 +275,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Light Repair and Replacements"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />

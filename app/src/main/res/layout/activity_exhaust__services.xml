@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_marginTop="30dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/mc">
 
             <TextView
                 android:id="@+id/exhaust_service"
@@ -38,14 +39,13 @@
                 android:paddingLeft="5dp"
                 android:text="Exhaust Services"
                 android:typeface="serif"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"/>
 
             <Button
                 android:id="@+id/button1"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/kuk"/>
+                android:background="@drawable/qwqwe"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +54,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/exhaust_repair"
@@ -65,7 +66,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Exhaust Repair"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -84,7 +84,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/exhaust_replace"
@@ -95,7 +96,7 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Exhaust Replace"
-                android:background="@drawable/reg_edittext_style"
+
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -113,7 +114,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/tailpipe_repair"
@@ -124,7 +126,7 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="TailPipe Repair"
-            android:background="@drawable/reg_edittext_style"
+
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -142,7 +144,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/catalytic_converter"
@@ -153,7 +156,7 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Catalytic Converter Repair"
-            android:background="@drawable/reg_edittext_style"
+
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -171,7 +174,9 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
+
 
         <TextView
             android:id="@+id/exhaust_mainfold"
@@ -182,7 +187,7 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Exhaust Mainfold Repair"
-            android:background="@drawable/reg_edittext_style"
+
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -200,7 +205,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/custom_exhaust"
@@ -211,7 +217,7 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Custom Exhaust Fabrication"
-            android:background="@drawable/reg_edittext_style"
+
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -230,7 +236,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/exhaust_upgrades"
@@ -241,7 +248,7 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Exhaust Upgrades"
-                android:background="@drawable/reg_edittext_style"
+
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -260,7 +267,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/exhaust_replacement"
@@ -271,7 +279,7 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Exhaust Replacement"
-                android:background="@drawable/reg_edittext_style"
+
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -290,7 +298,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/muffler_replacement"
@@ -301,7 +310,7 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Muffler Replacement"
-                android:background="@drawable/reg_edittext_style"
+
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />

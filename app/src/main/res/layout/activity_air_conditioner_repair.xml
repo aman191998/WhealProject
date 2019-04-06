@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_marginTop="30dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/mc">
 
             <TextView
                 android:id="@+id/air_repair"
@@ -36,7 +37,6 @@
                 android:layout_weight="40"
                 android:textSize="21dp"
                 android:paddingLeft="5dp"
-                android:background="@drawable/reg_edittext_style"
                 android:text="Air Conditioner Repair "
                 android:typeface="serif"
                 android:textColor="#000000"/>
@@ -45,7 +45,7 @@
                 android:id="@+id/button1"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/kuk"/>
+                android:background="@drawable/qwqwe"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +54,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/cooling_system"
@@ -65,7 +66,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Cooling System Diagnostics"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -84,7 +84,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/auto_aircond"
@@ -95,7 +96,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Auto Air Conditioning Repair"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -113,7 +113,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/heating_system"
@@ -124,7 +125,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Heating System Repair"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -142,7 +142,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/belt_repair"
@@ -153,7 +154,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Belt Repair "
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -171,7 +171,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/compressor_reapir"
@@ -182,7 +183,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Compressor Repair"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -200,7 +200,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@drawable/jk">
 
         <TextView
             android:id="@+id/refigerant_replacement"
@@ -211,7 +212,6 @@
             android:paddingRight="7dp"
             android:paddingTop="20dp"
             android:text="Refigerant Replacement"
-            android:background="@drawable/reg_edittext_style"
             android:textColor="#000000"
             android:textSize="21dp"
             android:typeface="serif" />
@@ -230,7 +230,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/auto_air"
@@ -241,7 +242,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Auto Air Conditioning"
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />
@@ -260,7 +260,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/jk">
 
             <TextView
                 android:id="@+id/heating_repair"
@@ -271,7 +272,6 @@
                 android:paddingRight="7dp"
                 android:paddingTop="20dp"
                 android:text="Heating System Repair and Service "
-                android:background="@drawable/reg_edittext_style"
                 android:textColor="#000000"
                 android:textSize="21dp"
                 android:typeface="serif" />

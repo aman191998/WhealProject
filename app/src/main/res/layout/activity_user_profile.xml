@@ -96,7 +96,7 @@
             android:layout_height="60dp"
             android:layout_weight="40"
             android:textSize="21dp"
-            android:text="Button"
+            android:text="Submit"
             android:typeface="serif"
             android:textStyle="bold"
             android:textColor="#ffffff"/>

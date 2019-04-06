@@ -7,7 +7,7 @@
     android:padding="5dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/veh">
+    android:background="@drawable/back2">
 
     <LinearLayout
         android:layout_marginRight="1dp"
@@ -16,18 +16,25 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/front"
+            />
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="20dp"
             android:padding="2dp"
             android:orientation="horizontal"
-            android:background="@drawable/papa">
+            android:background="@drawable/backrec">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:textSize="20dp"
+                android:textSize="19dp"
                 android:layout_margin="25dp"
                 android:layout_weight="50"
                 android:textColor="#ffffff"
@@ -40,7 +47,7 @@
                 android:scrollbarSize="20dp"
                 android:layout_marginTop="25dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="60" />
+                android:layout_weight="50" />
         </LinearLayout>
 
     <LinearLayout
@@ -51,7 +58,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:orientation="horizontal"
-        android:background="@drawable/papa">
+        android:background="@drawable/backrec">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -74,13 +81,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:padding="10dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:orientation="horizontal"
-        android:background="@drawable/papa">
+        android:background="@drawable/backrec">
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,13 +125,13 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:padding="10dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:orientation="vertical"
-        android:background="@drawable/papa">
+        android:background="@drawable/backrec">
 
         <TextView
             android:layout_width="wrap_content"
@@ -134,7 +141,7 @@
             android:layout_marginLeft="15dp"
             android:textColor="#ffffff"/>
         <EditText
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:paddingLeft="10dp"
@@ -151,10 +158,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="35dp"
-            android:ems="9"
+            android:ems="10"
+            android:paddingTop="20dp"
             android:paddingBottom="10dp"
-            android:background="@drawable/rer"
-            android:text="Add Vehicle"
+            android:background="@drawable/addvehbut"
             android:id="@+id/Butto1"
             />
 
